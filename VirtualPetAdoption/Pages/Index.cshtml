@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pet Matching Quiz";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Virtual Pet Adoption</h1>
+    <p>Answer two quick questions to meet your perfect pet.</p>
+</div>
+
+<form method="post">
+    
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">What is your name?</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="EnergyPreference" class="form-label">How much energy do you have for a pet?</label>
+        <select asp-for="EnergyPreference" class="form-select" required>
+            <option value="">Select one</option>
+            <option value="1">1 Very low. I want a calm pet.</option>
+            <option value="2">2 Low.</option>
+            <option value="3">3 Medium.</option>
+            <option value="4">4 High.</option>
+            <option value="5">5 Very high. I want an active pet.</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Find My Pet</button>
+</form>
+@*Form that submits when OnPost is called.*@
+
+@if (Model.Match != null)
+@*This code runs when the form is submitted and a match is found.*@
+{
+    <div class="alert alert-success mt-4">
+        <h2>@Model.Name, meet @Model.Match.Name! @Model.Match.Emoji</h2>
+        <p>@Model.Match.Species: @Model.Match.Description</p>
+        <p>Energy level: @Model.Match.EnergyLevel out of 5.</p>
+    </div>
+    @*This code displays text that explains the result of the form.*@
+}
