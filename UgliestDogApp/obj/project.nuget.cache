@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMTg9fJImdw=",
+  "dgSpecHash": "FH/wlyBTJqk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
+  "projectFilePath": "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alivi_98pvl\\.nuget\\packages\\microsoft.data.sqlite\\10.0.14\\microsoft.data.sqlite.10.0.14.nupkg.sha512",
     "C:\\Users\\alivi_98pvl\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.14\\microsoft.data.sqlite.core.10.0.14.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj": {}
+    "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj": {
+    "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
+        "projectUniqueName": "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
         "projectName": "UgliestDogApp",
-        "projectPath": "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
+        "projectPath": "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\UgliestDogApp.csproj",
         "packagesPath": "C:\\Users\\alivi_98pvl\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\obj\\",
+        "outputPath": "C:\\Users\\alivi_98pvl\\OneDrive - Minnesota State\\4-Itec 2505\\2505Module10Lab\\UgliestDogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alivi_98pvl\\AppData\\Roaming\\NuGet\\NuGet.Config"
